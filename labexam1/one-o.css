@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(238, 186, 227);
+    
+
+}
+.box{
+    box-shadow: 2px 2px ghostwhite;
+    padding: 10rem;
+    margin-right: 50rem;
+    margin-left: 40rem;
+    margin-top: 10rem;
+    background-color: rgba(255, 255, 255, 0.699);
+    height: 10rem;
+}
+.header01 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    float: left;
+    margin: -10rem;
+    display: flex;
+    margin-top: -450px;
+}
+nav{
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+}
+.kb{
+    margin: -50px;
+    margin-top: -125px;
+    padding: -100px;
+}
+.vb{
+    margin-left: -100px;
+    margin-top: 70px;
+    padding: -100px;
+}
+.hi{
+    margin-left: -30px;
+    margin-top: 50px;
+    padding: -50px;
+    border: 0px green;
+}
