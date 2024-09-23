@@ -17,7 +17,7 @@
     }
 ?>
 
-<h1>Student Bio</h1><br>  //create student table
+<h1>Student Bio</h1><br>  
         <table>
             <thead>
                 <tr>
@@ -41,7 +41,7 @@
                     $conn->close();
                 ?>
             </tbody>
-        </table>  //close table
+        </table>  
         <br>
         <a href='insertbio.php'><button> Insert Student</button></a>
 
