@@ -1,0 +1,70 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+.box{
+    border-radius: 5px;
+    width: 600px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.918);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease-in-out;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4e321b;
+    margin-bottom: 2rem;
+}
+.head img{
+    width: 300px;
+    height: 300px;
+}
+.inform{
+    margin-left: 8rem;
+    margin-right: 10rem;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+.inform input{
+    all: unset;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 3rem;
+}
+footer input,a{
+    all: unset;
+}
+.s{
+    background: #519e09;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+footer a{
+    color: blue;
+    cursor: pointer;
+}

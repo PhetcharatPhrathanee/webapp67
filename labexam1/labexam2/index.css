@@ -1,0 +1,76 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+.box{
+    border-radius: 5px;
+    width: 800px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.918);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease-in-out;
+    padding: 0%;
+
+}
+.box img{
+    margin-top: 3rem;
+    margin-left: 18rem;
+    border-radius: 50px;
+}
+.logo{
+    margin-top: 1rem;
+    margin-bottom: 1px;
+}
+.button{
+    margin-top: 0%;
+    display: flex;
+}
+.button img{
+    width: 150px;
+    height: 150px;
+}
+.maid{
+    margin-top: 3rem;
+    text-align: center;
+}
+.user{
+    margin-top: 3rem;
+    text-align: center;
+}
+.maid img{
+    margin-bottom: 2rem;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.user img{
+    margin-bottom: 2rem;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.maid button{
+    all: unset;
+    background: orangered;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius:3px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.user button{
+    all: unset;
+    background: orangered;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius:3px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
